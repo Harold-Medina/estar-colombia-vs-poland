@@ -1,2 +1,2 @@
-# sb1-1dchtdhz
-Repository created by Bolt to GitHub extension
+# estar-colombia-vs-poland
+proyecto de bolt, para evaluar en que pais se esta mejor. aun en desarrollo.
