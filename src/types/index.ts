@@ -3,6 +3,7 @@ export interface FinancialData {
   hoursPerDay: number;
   splitRent: boolean;
   lunch: number;
+  lunchesPerMonth: number;
   food: number;
   transportation: number;
   rent: number;

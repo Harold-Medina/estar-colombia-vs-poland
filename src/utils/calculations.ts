@@ -6,6 +6,7 @@ export const calculateMonthlyIncome = (hourlyWage: number, hoursPerDay: number):
 
 export const calculateTotalExpenses = (financial: {
   lunch: number;
+  lunchesPerMonth: number;
   food: number;
   transportation: number;
   rent: number;
@@ -15,8 +16,10 @@ export const calculateTotalExpenses = (financial: {
   gasoline: number;
 }): number => {
   const effectiveRent = financial.splitRent ? financial.rent / 2 : financial.rent;
+  const totalLunchCost = financial.lunch * financial.lunchesPerMonth;
+  
   return (
-    financial.lunch +
+    totalLunchCost +
     financial.food +
     financial.transportation +
     effectiveRent +

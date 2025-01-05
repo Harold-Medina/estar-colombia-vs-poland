@@ -2,6 +2,7 @@ export const defaultFinancialData = {
   hourlyWage: 0,
   hoursPerDay: 8,
   lunch: 0,
+  lunchesPerMonth: 20, // Default to 20 working days
   food: 0,
   transportation: 0,
   rent: 0,
